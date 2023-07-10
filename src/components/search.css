@@ -1,0 +1,15 @@
+.searchBox{
+
+    width: 30%;
+    height: 50%;
+    border: 2px solid burlywood;
+    padding: 5px;
+    margin: 10px;
+}
+
+Button{
+    margin: 10px;
+}
+select{
+    margin: 10px;
+}

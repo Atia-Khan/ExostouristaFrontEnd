@@ -1,18 +1,29 @@
 
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import './App.css';
-import Navbar from './components/Navbar';
-import ResultList from './components/ResultsList';
+
+
 import Search from './components/Search';
 
-function App() {
+import DetailedPage from './components/DetailedPage';
+import BookingForm from './components/BookingForm';
+
+const App = () => {
   return (
-    <div className="App">
-  <Navbar />
-  <Search />
-  <ResultList />
-    </div>
+    <BrowserRouter>
+    
+    <Routes>
+      
+    <Route exact path="/" element={<Search />} />
+        <Route path="/hotels/:id" element={<DetailedPage />} />
+        <Route path="/BookingForm" element={<BookingForm />} />
+      
+    </Routes>
+    </BrowserRouter>
+  
   );
-}
+};
 
 export default App;
+

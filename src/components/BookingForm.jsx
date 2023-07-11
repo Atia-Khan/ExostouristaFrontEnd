@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './BookingForm.css';
+import { Box } from "@mui/material";
 
 const BookingForm = ({ hotel }) => {
   const [name, setName] = useState('');
@@ -38,11 +39,15 @@ const BookingForm = ({ hotel }) => {
       totalPrice: totalPrice
     };
 
-    // Rest of the code
+    
   };
 
   return (
+    <>
+    <Box>
+    <h1>Please Fill the Form for Booking Your Stay</h1>
     <div className="booking-form-container">
+      
       <h2>Booking Form</h2>
       <form onSubmit={handleSubmit} className="booking-form">
         <div className="form-field">
@@ -88,6 +93,8 @@ const BookingForm = ({ hotel }) => {
         <button type="submit" className="submit-button">Confirm My Stay</button>
       </form>
     </div>
+    </Box>
+    </>
   );
 };
 

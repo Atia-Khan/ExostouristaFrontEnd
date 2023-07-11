@@ -7,7 +7,7 @@
         "location": "Karachi",
         "isPool": false,
         "experienceLevel": "Budget",
-        "pricePerNight": "2500.00"
+        "pricePerNight": 2500.00,
     },
     {
         "hotelName": "Pearl Continental Hotel",
@@ -17,7 +17,7 @@
         "location": "Karachi",
         "isPool": true,
         "experienceLevel": "Luxury",
-        "pricePerNight": "40000.00"
+        "pricePerNight": 40000.00,
     },
     {
         "hotelName": "Star Guest House",
@@ -27,7 +27,7 @@
         "location": "Karachi",
         "experienceLevel": "Business",
         "isPool": false,
-        "pricePerNight": "15000.00"
+        "pricePerNight": 15000.00,
     },
     {
         "hotelName": "Hammad Lodges",
@@ -37,7 +37,7 @@
         "location": "Islamabad",
         "experienceLevel": "Budget",
         "isPool": false,
-        "pricePerNight": "2700.00"
+        "pricePerNight": ,2700.00
     },
     {
         "hotelName": "Holidazzle Serviced Apartments",
@@ -47,7 +47,7 @@
         "location": "Islamabad",
         "experienceLevel": "Business",
         "isPool": true,
-        "pricePerNight": "14000.00"
+        "pricePerNight": 14000.00,
     },
     {
         "hotelName": "Centaurus Hotel Suites",
@@ -57,7 +57,7 @@
         "location": "Islamabad",
         "experienceLevel": "Luxury",
         "isPool": true,
-        "pricePerNight": "62000.00"
+        "pricePerNight": 62000.00,
     },
     {
         "hotelName": "New Taj Hotel",
@@ -67,7 +67,7 @@
         "location": "Lahore",
         "experienceLevel": "Budget",
         "isPool": false,
-        "pricePerNight": "810.00"
+        "pricePerNight": 810.00,
     },
     {
         "hotelName": "12th Avenue",
@@ -77,7 +77,7 @@
         "location": "Lahore",
         "experienceLevel": "Business",
         "isPool": true,
-        "pricePerNight": "13500.00"
+        "pricePerNight": 13500.00,
     },
     {
         "hotelName": "Hilton Suites",
@@ -87,6 +87,6 @@
         "location": "Lahore",
         "experienceLevel": "Luxury",
         "isPool": true,
-        "pricePerNight": "120000.00"
+        "pricePerNight": 120000.00,
     }
 ]

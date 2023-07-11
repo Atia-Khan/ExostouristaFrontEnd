@@ -26,7 +26,7 @@ const DetailedPage = () => {
       <Typography variant="subtitle1" className="subtitle bold">Location: {hotel.location}</Typography>
       <Typography variant="subtitle1" className="subtitle bold" >Short Description: {hotel.description}</Typography>
       <Typography variant="body1" className="description bold">Details: {hotel.longDesc}</Typography>
-      <Typography variant="subtitle1" className="subtitle bold">Pool Availability: {hotel.isPool ? 'Available' : 'Not Available'}</Typography>
+      <Typography variant="subtitle1" className="subtitle bold">Pool Availability: {hotel.pool ? 'Available' : 'Not Available'}</Typography>
       <Typography variant="subtitle1" className="subtitle bold">Experience: {hotel.experienceLevel}</Typography>
       <Typography variant="subtitle1" className="subtitle bold">Price per Night: ${hotel.pricePerNight}</Typography>
       <Button variant="contained" color="primary" component={Link} to="/BookingForm" className="button">

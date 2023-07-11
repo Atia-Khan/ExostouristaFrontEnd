@@ -1,0 +1,35 @@
+.confirmation-page {
+    background-image: url("../images/hotel4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    width: 80%;
+    margin: 10rem;
+    border-radius: 20px;
+    justify-content: center;
+    height: 50rem;
+    color: black;
+    opacity: 0.8; 
+  }
+  
+  .confirmation-page h2{
+    text-align: center;
+    font-size: 5rem;
+  }
+  .confirmation-page p {
+    text-align: center;
+   
+    font-size: 4rem;
+    color: rgb(196, 55, 97);
+  }
+
+  .button {
+    padding: 12px 24px;
+    margin-top: 16px;
+    border-radius: 4px;
+    background-color: #00aaff;
+    align-self: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

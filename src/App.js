@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ConfirmationPage from './components/ConfirmationPage';
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
     <Route exact path="/" element={<Search />} />
         <Route path="/hotels/:id" element={<DetailedPage />} />
         <Route path="/BookingForm" element={<BookingForm />} />
+        <Route path="/confirmationpage" element={<ConfirmationPage />} />
       
     </Routes>
     </BrowserRouter>

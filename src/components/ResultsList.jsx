@@ -58,6 +58,7 @@
 
 import React, { useState } from "react";
 import { Card, CardContent, CardMedia, Typography, Box } from "@mui/material";
+import {  Link } from 'react-router-dom';
 import BookingForm from "./BookingForm";
 import "./resultList.css";
 
@@ -76,16 +77,14 @@ const ResultList = ({ hotels }) => {
     <div className="resultContainer">
       {hotels.map((hotel) => (
         <Card key={hotel.id} className="resultCard">
-          <CardMedia
-            component="img"
-            height="140"
-            image={hotel.imgLink}
-            alt={hotel.hotelName}
-          />
-          <CardContent>
-            <Typography variant="h5" component="div" fontWeight="bold">
-              {hotel.hotelName}
-            </Typography>
+                   <CardMedia component="img" height="140" image={hotel.imgLink} alt={hotel.hotelName} />
+                   <CardContent>
+                   <Link to={`/hotels/${hotel.id}`} style={{ textDecoration: 'none' }}>
+        
+                       <Typography variant="h5" component="div" fontWeight="bold">
+                       {hotel.hotelName}
+                      </Typography>
+                    </Link>
             <Typography variant="subtitle1" color="text.secondary">
               <strong>Location:</strong> {hotel.location}
             </Typography>
